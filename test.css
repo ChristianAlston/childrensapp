@@ -1,0 +1,115 @@
+.taketest{
+    height: auto;
+    width: 95%;
+    margin:  auto;
+    background-color:rgb(85, 85, 85);
+    position: relative;
+}
+
+.buttons{
+    height: 70px;
+    width: 200px;
+    background-color: rgb(0, 255, 213);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.profilepic{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    background-image: url('./Images/laptop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+
+.timewrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.timewrap > i{
+    font-size: 28px;
+    color:rgb(70, 70, 70)
+}
+
+.head{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.question{
+    height: 30vh;
+    width: 50%;
+    background-color: white;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgb(46, 46, 46);
+}
+
+.leftblock{
+position: absolute;
+left: 0;
+height: 100%;
+width: 5%;
+background-color: rgb(0, 255, 213);
+border-radius: 20px 0 0 20px ;
+}
+
+.number{
+    color: lightgrey;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.questionbox{
+    margin: 10% auto;
+    height: 100%;
+    width: 50%;
+
+}
+
+.questionbox, .answerbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.answer > label{
+    font-weight: bold;
+}
+
+.submitwrap{
+width: 100%;
+text-align: center;
+}
+
+.submittest{
+    background-color: rgb(0, 255, 213);
+    color: white;
+    height: 65px;
+    width: 50%;
+    border: none;
+    border-radius: 50px;
+    margin: 2% auto;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.quit{
+    color: white;
+text-align: center;
+margin: 3% 0;
+}
